@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon diaporama</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+	<div id="diaporama">
+		<!-- Les pages HTML seront chargées ici -->
+	 </div>
+
+	<script>
+		var pages = ["equipe1.html", "equipe2.html","equipe3.html","equipe4.html","equipe5.html","equipe6.html","equipe7.html","equipe8.html","equipe9.html","equipe10.html","equipe11.html","actualité.html"];
+
+		function loadPage(index) {
+			var page = pages[index];
+			var diaporama = document.getElementById("diaporama");
+			diaporama.innerHTML = "";
+			var object = document.createElement("object");
+			object.data = page;
+			object.type = "text/html";
+			diaporama.appendChild(object);
+		}
+
+		var index = 0;
+		function startSlideshow() {
+			loadPage(index);
+			index++;
+			if (index >= pages.length) {
+				index = 0;
+			}
+		}
+		setInterval(startSlideshow, 10000); // Change de page toutes les 10 secondes
+	</script>
+</body>
+
+
+<footer>
+    <div class="progress-bar"></div>
+</footer>
+</html>
+

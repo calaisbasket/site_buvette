@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site équipe 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<nav class="navbar">
+    <a href="" >
+      <img class="logo" src="images/logocalais.png"></img>
+    </a>
+</nav>
+<header></header>
+
+<div class="clock">
+    <span id="hours"></span> :
+    <span id="minutes"></span> 
+  </div>
+
+
+  
+  <script>
+
+    function updateTime() {
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    document.getElementById('hours').textContent = hours;
+    document.getElementById('minutes').textContent = minutes;
+    }
+
+    setInterval(updateTime, 1000);
+</script>
+
+
+<body>
+    <div class="Equipe2">
+        <h1> U9 M2 </h1>
+    </div>
+
+    <iframe class = "widget_classement" id="5de6bffc36502830ff3f3a86" height="280" src="https://v1.scorenco.com/widget/5de6bffc36502830ff3f3a86/" ></iframe>
+     
+    <iframe class = "widget_rencontre" id="646e1992773e1408cc888c75" height="280" src="https://v1.scorenco.com/widget/646e1992773e1408cc888c75/"></iframe>
+
+    <div class="sponsor-box">
+      <ul>
+        <li><img src="sponsor/sponsor1.png" alt="sponsor 1"></li>
+        <li><img src="sponsor/sponsor2.png" alt="sponsor 2"></li>
+        <li><img src="sponsor/sponsor3.png" alt="sponsor 3"></li>
+        <li><img src="sponsor/sponsor4.png" alt="sponsor 4"></li>
+        <li><img src="sponsor/sponsor5.png" alt="sponsor 5"></li>
+        <li><img src="sponsor/sponsor6.png" alt="sponsor 6"></li>
+        <li><img src="sponsor/sponsor7.png" alt="sponsor 7"></li>
+        <li><img src="sponsor/sponsor8.png" alt="sponsor 8"></li>
+        <li><img src="sponsor/sponsor9.png" alt="sponsor 9"></li>
+        <li><img src="sponsor/sponsor10.png" alt="sponsor 10"></li>
+        <li><img src="sponsor/sponsor11.png" alt="sponsor 11"></li>
+        <li><img src="sponsor/sponsor12.png" alt="sponsor 12"></li>
+        <li><img src="sponsor/sponsor13.png" alt="sponsor 13"></li>
+        <li><img src="sponsor/sponsor1.png" alt="sponsor 1"></li>
+        <li><img src="sponsor/sponsor2.png" alt="sponsor 2"></li>
+        <li><img src="sponsor/sponsor3.png" alt="sponsor 3"></li>
+        <li><img src="sponsor/sponsor4.png" alt="sponsor 4"></li>
+        <li><img src="sponsor/sponsor5.png" alt="sponsor 5"></li>
+        <li><img src="sponsor/sponsor6.png" alt="sponsor 6"></li>
+      </ul>
+    </div>
+    
+    <img class="photoequipe" src="images/u9M2Photo.jpg"><img>
+
+    <img class="suivez_nous" src="images/suivez_nous.png"><img>
+    
+</body>
+</html>

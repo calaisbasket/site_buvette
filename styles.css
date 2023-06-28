@@ -1,0 +1,210 @@
+* {
+    background-color: rgb(225, 225, 225);
+    margin: 0px;
+    padding: 0;
+}
+
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "PoliceCB";
+    src: url("font/stormfaze.ttf");
+}
+
+h1 {
+    font-family: "PoliceCB";
+    font-size: 50px;
+    color: rgb(23, 36, 62);
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+@keyframes animation1 {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.photoequipe {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 610px;
+    width: 375px;
+    border-radius: 30px;
+}
+
+main {
+    overflow-y: auto;
+}
+
+.clock {
+    padding-top: 0;
+    position: absolute;
+    left: 1300px;
+    top: 25px;
+    font-family: "PoliceCB";
+    font-size: 3em;
+    background-color: transparent;
+}
+
+.logo {
+    padding-top: 5px;
+    display: inline-block;
+    padding-bottom: 0;
+    display: flex;
+    width: 4.5%;
+    padding-left: 725px;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    height: 5vh;
+    width: 100vw;
+    z-index: 2;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sponsor-box {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 125px;
+    position: relative;
+    top: 580px;
+}
+
+.sponsor-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    animation: marquee 25s linear infinite;
+    white-space: nowrap;
+    animation-direction: alternate;
+}
+
+.sponsor-box ul li {
+    display: inline-block;
+    height: 100%;
+}
+
+.sponsor-box ul li img {
+    display: block;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-1000px);
+    }
+}
+
+element.style.c-btn.c-btn--is-light {
+    display: none;
+}
+
+.widget_classement {
+    display: block;
+    width: 31%;
+    height: 55%;
+    overflow: hidden;
+    margin: auto;
+    border-width: 0px;
+    position: absolute;
+    left: 1025px;
+    border-radius: 20px;
+    top: 150px;
+}
+
+.suivez_nous {
+    width: 42%;
+    display: flex;
+    padding-left: 29em;
+    padding-top: 1em;
+    margin: 0%;
+}
+
+.widget_rencontre {
+    display: block;
+    width: 35%;
+    height: 60%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    border-width: 0px;
+    left: 25px;
+    top: 150px;
+}
+
+
+@media (min-width: 3600px) {
+    h1 {
+        top: 75px;
+        left: 100px;
+        font-size: 150px;
+    }
+
+    .photoequipe {
+        left: 1300px;
+        top: 400px;
+        width: 1200px;
+    }
+
+    .clock {
+        font-size: 10em;
+        left: 3100px;
+        top: 75px;
+    }
+
+    .logo {
+        width: 6%;
+        padding-left: 1800px;
+        padding-top: 50px;
+    }
+
+    .sponsor-box {
+        height: 250px;
+        top: 1450px;
+    }
+
+    .widget_classement {
+        top: 400px;
+        left: 2600px;
+        width: 30%;
+        height: 70%;
+    }
+
+    .suivez_nous {
+        width: 50% ;
+        padding-top: 22em;
+        padding-left: 57em;
+    }
+
+    .widget_rencontre {
+        left: 50px;
+        width: 30%;
+        height: 50%;
+        top: 450px;
+    }
+}
