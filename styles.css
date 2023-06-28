@@ -140,8 +140,8 @@ element.style.c-btn.c-btn--is-light {
 .suivez_nous {
     width: 42%;
     display: flex;
-    padding-left: 29em;
-    padding-top: 1em;
+    left:500px;
+    top: 600px;
     margin: 0%;
 }
 
