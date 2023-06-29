@@ -215,6 +215,7 @@ element.style.c-btn.c-btn--is-light {
 @media (min-width: 1600px) {
 
     .photoequipe {
+        top: 300px;
         left: 750px;
         width: 450px;
     }
