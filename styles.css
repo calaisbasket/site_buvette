@@ -151,6 +151,7 @@ element.style.c-btn.c-btn--is-light {
     height: 60%;
     overflow: auto;
     margin: auto;
+    border-radius: 20px;
     position: absolute;
     border-width: 0px;
     left: 25px;
