@@ -1,4 +1,4 @@
-* {
+e* {
     background-color: rgb(225, 225, 225);
     margin: 0px;
     padding: 0;
@@ -221,7 +221,7 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .clock {
-        left: 1550px;
+        left: 1600px;
         top: 25px;
     }
 
