@@ -247,4 +247,8 @@ element.style.c-btn.c-btn--is-light {
         left: 25px;
         top: 150px;
     }
+
+    .sponsor-box {
+        top: 680px;
+    }
 }
