@@ -221,9 +221,8 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .clock {
-        font-size: 10em;
-        left: 3900px;
-        top: 75px;
+        left: 1500px;
+        top: 25px;
     }
 
     .logo {
