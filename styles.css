@@ -236,22 +236,21 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .widget_classement {
-        top: 400px;
-        left: 3500px;
-        width: 30%;
-        height: 70%;
+        width: 31%;
+        height: 55%;
+        left: 1200px;
     }
 
     .suivez_nous {
-        width: 50% ;
-        padding-top: 15em;
-        padding-left: 75em;
+        width: 42%;
+        padding-left: 35em;
+        padding-top: 2em;
     }
 
     .widget_rencontre {
-        left: 50px;
-        width: 30%;
-        height: 50%;
-        top: 450px;
+        width: 35%;
+        height: 60%;
+        left: 25px;
+        top: 150px;
     }
 }
