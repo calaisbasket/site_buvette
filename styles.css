@@ -158,6 +158,14 @@ element.style.c-btn.c-btn--is-light {
     top: 150px;
 }
 
+.photoactu{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media (min-width: 3600px) {
     h1 {
