@@ -226,14 +226,7 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .logo {
-        width: 6%;
-        padding-left: 2000px;
-        padding-top: 50px;
-    }
-
-    .sponsor-box {
-        height: 250px;
-        top: 1450px;
+    padding-left: 900px;
     }
 
     .widget_classement {
