@@ -167,8 +167,9 @@ element.style.c-btn.c-btn--is-light {
 
     .photoequipe {
         left: 1500px;
+        top: 200px;
         top: 400px;
-        width: 1200px;
+        width: 1400px;
     }
 
     .clock {
