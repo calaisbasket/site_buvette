@@ -209,3 +209,49 @@ element.style.c-btn.c-btn--is-light {
         top: 450px;
     }
 }
+
+
+@media (max-width: 1900px) {
+
+    .photoequipe {
+        left: 750px;
+        width: 450px;
+    }
+
+    .clock {
+        font-size: 10em;
+        left: 3900px;
+        top: 75px;
+    }
+
+    .logo {
+        width: 6%;
+        padding-left: 2000px;
+        padding-top: 50px;
+    }
+
+    .sponsor-box {
+        height: 250px;
+        top: 1450px;
+    }
+
+    .widget_classement {
+        top: 400px;
+        left: 3500px;
+        width: 30%;
+        height: 70%;
+    }
+
+    .suivez_nous {
+        width: 50% ;
+        padding-top: 15em;
+        padding-left: 75em;
+    }
+
+    .widget_rencontre {
+        left: 50px;
+        width: 30%;
+        height: 50%;
+        top: 450px;
+    }
+}
