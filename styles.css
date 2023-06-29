@@ -166,7 +166,7 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .photoequipe {
-        left: 1500px;
+        left: 2000px;
         top: 200px;
         top: 400px;
         width: 1400px;
@@ -174,7 +174,7 @@ element.style.c-btn.c-btn--is-light {
 
     .clock {
         font-size: 10em;
-        left: 3600px;
+        left: 3900px;
         top: 75px;
     }
 
@@ -191,15 +191,15 @@ element.style.c-btn.c-btn--is-light {
 
     .widget_classement {
         top: 400px;
-        left: 3000px;
+        left: 3500px;
         width: 30%;
         height: 70%;
     }
 
     .suivez_nous {
         width: 50% ;
-        padding-top: 24em;
-        padding-left: 65em;
+        padding-top: 15em;
+        padding-left: 75em;
     }
 
     .widget_rencontre {
