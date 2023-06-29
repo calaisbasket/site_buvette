@@ -190,15 +190,15 @@ element.style.c-btn.c-btn--is-light {
 
     .widget_classement {
         top: 400px;
-        left: 2600px;
+        left: 3000px;
         width: 30%;
         height: 70%;
     }
 
     .suivez_nous {
         width: 50% ;
-        padding-top: 32em;
-        padding-left: 57em;
+        padding-top: 24em;
+        padding-left: 65em;
     }
 
     .widget_rencontre {
