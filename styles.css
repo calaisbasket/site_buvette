@@ -159,7 +159,7 @@ element.style.c-btn.c-btn--is-light {
 }
 
 .photoactu{
-    height: 100%;
+    width: 900px;
     margin: 0;
     display: flex;
     align-items: center;
