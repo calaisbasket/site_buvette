@@ -215,8 +215,8 @@ element.style.c-btn.c-btn--is-light {
 @media (min-width: 1600px) {
 
     .photoequipe {
-        top: 300px;
-        left: 750px;
+        top: 100px;
+        left: 725px;
         width: 450px;
     }
 
@@ -237,8 +237,8 @@ element.style.c-btn.c-btn--is-light {
 
     .suivez_nous {
         width: 42%;
-        padding-left: 35em;
-        padding-top: 0em;
+        padding-left: 31em;
+        padding-top: 10em;
     }
 
     .widget_rencontre {
