@@ -158,12 +158,18 @@ element.style.c-btn.c-btn--is-light {
     top: 150px;
 }
 
-.photoactu{
-    width: 1200px;
+.photoactu {
+    width: 100%; 
+    height: 100vh; 
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.photoactu img {
+    max-width: 1200px; /* Définissez la largeur maximale de l'image */
+    max-height: 100%; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
 }
 
 
