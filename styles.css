@@ -169,7 +169,7 @@ element.style.c-btn.c-btn--is-light {
 
 .photoactu img {
     max-width: 1200px; /* Définissez la largeur maximale de l'image */
-    max-height: 100%; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
+    max-height: 556px; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
 }
 
 
