@@ -159,8 +159,8 @@ element.style.c-btn.c-btn--is-light {
 }
 
 .photoactu {
-    width: 100%; 
-    height: 100vh; 
+    width: 1920px; 
+    height: 890px; 
     margin: 0;
     display: flex;
     align-items: center;
@@ -168,8 +168,8 @@ element.style.c-btn.c-btn--is-light {
 }
 
 .photoactu img {
-    max-width: 1200px; /* Définissez la largeur maximale de l'image */
-    max-height: 556px; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
+    max-width: 1920px; /* Définissez la largeur maximale de l'image */
+    max-height: 890px; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
 }
 
 
