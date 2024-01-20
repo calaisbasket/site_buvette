@@ -179,6 +179,8 @@ element.style.c-btn.c-btn--is-light {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    left: 515px;
 }
 
 .photoactu_2 img {
