@@ -188,6 +188,22 @@ element.style.c-btn.c-btn--is-light {
     max-height: 890px; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
 }
 
+.photoactu_3 {
+    width: 629px; 
+    height: 890px; 
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 645px;
+}
+
+.photoactu_3 img {
+    max-width: 629px; /* Définissez la largeur maximale de l'image */
+    max-height: 890px; /* Permet à l'image de s'ajuster à la hauteur de l'élément parent */
+}
+
 
 @media (min-width: 3600px) {
     h1 {
