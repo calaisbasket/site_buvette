@@ -53,6 +53,7 @@ main {
     left: 1300px;
     top: 25px;
     font-family: "PoliceCB";
+    color: rgb(23, 36, 62);
     font-size: 3em;
     background-color: transparent;
 }
