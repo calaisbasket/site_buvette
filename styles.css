@@ -39,6 +39,7 @@ h1 {
     left: 610px;
     width: 375px;
     border-radius: 30px;
+    background-color: transparent;
 }
 
 main {
@@ -62,6 +63,7 @@ main {
     display: flex;
     width: 4.5%;
     padding-left: 725px;
+    background-color: transparent;
 }
 
 header {
@@ -70,6 +72,7 @@ header {
     height: 5vh;
     width: 100vw;
     z-index: 2;
+    background-color: transparent;
 }
 
 .navbar {
@@ -84,6 +87,7 @@ header {
     height: 125px;
     position: relative;
     top: 580px;
+    background-color: transparent;
 }
 
 .sponsor-box ul {
@@ -98,6 +102,7 @@ header {
     animation: marquee 25s linear infinite;
     white-space: nowrap;
     animation-direction: alternate;
+    background-color: transparent;
 }
 
 .sponsor-box ul li {
@@ -135,6 +140,7 @@ element.style.c-btn.c-btn--is-light {
     left: 1025px;
     border-radius: 20px;
     top: 150px;
+    background-color: transparent;
 }
 
 .suivez_nous {
@@ -143,6 +149,7 @@ element.style.c-btn.c-btn--is-light {
     padding-left: 29em;
     padding-top: 10em;
     margin: 0%;
+    background-color: transparent;
 }
 
 .widget_rencontre {
@@ -156,6 +163,7 @@ element.style.c-btn.c-btn--is-light {
     border-width: 0px;
     left: 25px;
     top: 150px;
+    background-color: transparent;
 }
 
 .photoactu {
@@ -165,6 +173,7 @@ element.style.c-btn.c-btn--is-light {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
 }
 
 .photoactu img {
@@ -181,6 +190,7 @@ element.style.c-btn.c-btn--is-light {
     justify-content: center;
     position: absolute;
     left: 515px;
+    background-color: transparent;
 }
 
 .photoactu_2 img {
@@ -197,6 +207,7 @@ element.style.c-btn.c-btn--is-light {
     justify-content: center;
     position: absolute;
     left: 645px;
+    background-color: transparent;
 }
 
 .photoactu_3 img {
