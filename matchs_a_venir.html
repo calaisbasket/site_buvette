@@ -36,6 +36,46 @@
     setInterval(updateTime, 1000);
 </script>
 
+    <script>
+const iframe = document.querySelector('.widget_matchs_a_venir');
+
+iframe.addEventListener('load', function() {
+    try {
+        const doc = iframe.contentWindow.document;
+        const hauteurMax = doc.documentElement.scrollHeight - doc.documentElement.clientHeight;
+
+        if (hauteurMax <= 0) return;
+
+        const duree = 15000;
+        const debut = performance.now();
+
+        function defiler(maintenant) {
+            const progression = Math.min((maintenant - debut) / duree, 1);
+
+            iframe.contentWindow.scrollTo(
+                0,
+                hauteurMax * progression
+            );
+
+            if (progression < 1) {
+                requestAnimationFrame(defiler);
+            } else {
+                setTimeout(() => {
+                    iframe.contentWindow.scrollTo(0, 0);
+                    setTimeout(() => {
+                        location.reload();
+                    }, 1000);
+                }, 1000);
+            }
+        }
+
+        requestAnimationFrame(defiler);
+
+    } catch (e) {
+        console.log("Défilement non autorisé par Scorenco");
+    }
+});
+</script>
 
 <body>
     <div class="Equipe2">
