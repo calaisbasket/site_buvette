@@ -83,7 +83,7 @@ header {
     width: 100%;
     height: 125px;
     position: relative;
-    top: 680px;
+    top: 730px;
 }
 
 .sponsor-box ul {
@@ -296,7 +296,7 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .sponsor-box {
-        top: 730px;
+        top: 780px;
     }
 }
 
