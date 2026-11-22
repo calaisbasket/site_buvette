@@ -127,7 +127,7 @@ element.style.c-btn.c-btn--is-light {
 .widget_classement {
     display: block;
     width: 31%;
-    height: 50vh;
+    height: 65vh;
     margin: auto;
     border: none;
     position: absolute;
@@ -276,7 +276,7 @@ element.style.c-btn.c-btn--is-light {
 
     .widget_classement {
         width: 31%;
-        height: 50vh;
+        height: 65vh;
         left: 1250px;
         top: 150px;
     }
