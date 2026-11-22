@@ -127,13 +127,14 @@ element.style.c-btn.c-btn--is-light {
 .widget_classement {
     display: block;
     width: 31%;
-    height: 65vh;
+    height: 75vh;
+    overflow: hidden;
     margin: auto;
     border: none;
     position: absolute;
     left: 1025px;
-    top: 150px;
     border-radius: 20px;
+    top: 150px;
 }
 
 .suivez_nous {
@@ -275,11 +276,11 @@ element.style.c-btn.c-btn--is-light {
     }
 
     .widget_classement {
-        width: 31%;
-        height: 65vh;
-        left: 1250px;
-        top: 150px;
-    }
+    width: 31%;
+    height: 75vh;
+    left: 1250px;
+    top: 150px;
+}
 
     .suivez_nous {
         width: 42%;
