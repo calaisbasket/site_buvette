@@ -136,6 +136,16 @@ element.style.c-btn.c-btn--is-light {
     border-radius: 20px;
 }
 
+.widget_matchs_a_venir {
+    position: absolute;
+    top: 150px;
+    left: 7.5%;
+    width: 85%;
+    height: 90vh;
+    border: none;
+    display: block;
+}
+
 .suivez_nous {
     width: 42%;
     display: flex;
